@@ -1,0 +1,46 @@
+.container {
+    min-height: 100vh; /*Para que ocupe todo el espacio */
+    background-position: center center; /* Para que se centre la imagen */
+    background-size: cover; /* El cover para que se adapte a los tamaños de pantalla */
+    display: flex;
+    justify-content: center; /*Centrado de mi caja de texto*/
+    align-items: center; /*Centrado de los 4 ejes*/
+    flex-direction: column;
+}
+
+.container__box {
+    width: center;
+    max-width: 30em;
+    background-color: rgba(255, 255, 255, 0.4); /*Pintar mi caja*/
+    padding: 1em 4em; /*Agrandar mi caja*/
+    text-align: center; /*Centrar el texto de mi caja*/
+    border-radius: 0.8em; /*Le da un radio a la caja*/
+    font-size: 1.2rem; /*Me especifica la dimensión de la caja*/
+}
+
+.container__title {
+   text-shadow: -0.10em 0.1em skyblue;
+   font-size: 3rem;
+}
+
+/* Pendiente...............*/
+.container__gral {
+    display: flex;
+    min-height: 100hv;
+    align-items: center;
+    text-align: justify;
+}
+
+.container__clouds {
+    display: grid;
+    gap: .5em;
+    list-style: none;
+    
+}
+
+.container__btn {
+    padding: 0.8em 1.2em;
+    border-radius: 1.5em;
+    font-size: 14px;
+    cursor: pointer;
+}
